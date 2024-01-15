@@ -1,0 +1,13 @@
+.table_item {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.delete {
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+
+.delete:hover {
+    scale: 1.2;
+}
